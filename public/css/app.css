@@ -1,0 +1,41 @@
+
+
+
+.modal {
+    position: fixed;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.5);
+    display: none;
+}
+
+.modal form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.modal h3 {
+    margin: 0;
+}
+
+.modal input {
+    gap: 1rem  ;
+}
+
+.modalBtn:hover {
+    cursor: pointer;
+}
+
+.modal margin {
+    gap: 1rem;
+}
